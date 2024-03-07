@@ -3,8 +3,9 @@ project(IceGE_Demo)
 
 set(ICEGE_DIR ${PROJECT_SOURCE_DIR}/external/IceGE)
 
-# Include IceGE's CMakeLists.txt from the submodule
-include(${ICEGE_DIR}/CMakeLists.txt)
+add_subdirectory(external/IceGE)
+
+include_directories(${ICEGE_DIR}/include)  # Include main header directory
 
 set(GAME_DEMO_SRCS
     src/IceGE_Demo/main.cpp
