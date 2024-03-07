@@ -15,4 +15,4 @@ set(GAME_DEMO_SRCS
 add_executable(IceGE_Demo ${GAME_DEMO_SRCS})
 
 # Link the game demo with the IceGE library (use from submodule)
-target_link_libraries(IceGE_Demo PRIVATE IceGE)
+target_link_libraries(IceGE_Demo PRIVATE IceGELib)
