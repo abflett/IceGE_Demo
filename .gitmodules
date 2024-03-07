@@ -1,0 +1,3 @@
+[submodule "external/IceGE"]
+	path = external/IceGE
+	url = git@github.com:abflett/IceGE.git
