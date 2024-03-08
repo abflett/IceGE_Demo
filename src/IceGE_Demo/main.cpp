@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "Engine/Engine.hpp" // Assuming IceGE is located in a subdirectory named IceGE
+#include "Engine.hpp" // Assuming IceGE is located in a subdirectory named IceGE
 
 int main()
 {
